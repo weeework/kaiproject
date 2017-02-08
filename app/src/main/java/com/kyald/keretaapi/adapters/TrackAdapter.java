@@ -65,7 +65,7 @@ public class TrackAdapter extends  RecyclerView.Adapter<TrackAdapter.UserViewHol
                 String token = PreferenceUtils.getInstance().loadDataString(context, PreferenceUtils.TOKEN);
                 int train_id = sts.getTrainId();
                 final int track_id = sts.getId();
-                final String status = "Posisi sekarang : "+sts.getLocation();
+                final String status = "Posisi sekarang : "+sts.getLocation() + "("+System.currentTimeMillis()+")";
 
                 RestAPI apiEndpoint = Utils.getClient().create(RestAPI.class);
                 final Call<TrackUpdateResponse> call = apiEndpoint.postTrack(token, train_id, track_id,status);
