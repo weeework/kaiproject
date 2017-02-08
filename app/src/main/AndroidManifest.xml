@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kyald.keretaapi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".ui.RegisterActivity" />
+        <activity android:name=".ui.LoginActivity">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.OrderTicketActivity" />
+        <activity android:name=".ui.TicketActivity" />
+        <activity android:name=".ui.MakananActivity" />
+        <activity android:name=".ui.MinumanActivity" />
+        <activity android:name=".ui.FoodActivity" />
+        <activity android:name=".ui.StatusActivity" />
+        <activity android:name=".LokasiActivity" />
+        <activity android:name=".ui.PassangerActivity" />
+        <activity android:name=".SplashActivity"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+    </application>
+
+</manifest>

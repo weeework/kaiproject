@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kyald.keretaapi.ui.MainActivity"
+    android:background="@android:color/background_light">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></View>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l1"
+        android:layout_below="@+id/logokai"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="35dp">
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="35dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:background="@drawable/iconfood"
+                android:layout_weight="1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="false"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <Button
+            android:text="Menu Makanan"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/btnmakanan"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="@drawable/lengkungkuning"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l2"
+        android:layout_below="@+id/l1"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="35dp">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:background="@drawable/minum"
+                android:layout_weight="1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <Button
+            android:text="Menu Minuman"
+            android:layout_width="wrap_content"
+            android:id="@+id/btnminuman"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="@drawable/lengkungkuning"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l3"
+        android:layout_below="@+id/l2"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="35dp">
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:background="@drawable/chekicon"
+                android:layout_weight="1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <Button
+            android:text="Status Pemesanan"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/btnstatus"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="@drawable/lengkungkuning"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_height="100dp"
+        android:id="@+id/logokai"
+        android:background="@drawable/logo"
+        android:layout_width="250dp"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/l3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Silahkan memilih makanan pada menu makanan, dan untuk pemesanan minuman silahkan memilih menu minuman. Setelah memilih,pesanan akan masuk di Status Pemesanan."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:textColor="@android:color/background_dark"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="33dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="Attention :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textColor="@android:color/background_dark"
+            android:layout_above="@+id/textView10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView">
+
+    </LinearLayout>
+
+</RelativeLayout>

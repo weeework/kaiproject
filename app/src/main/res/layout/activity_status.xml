@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_status"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kyald.keretaapi.ui.StatusActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:background="@drawable/lengkungkuning"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/rl_title">
+
+        <TextView
+            android:text="FOOD AND BAVERAGE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:text="Status Pemesanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_ac"
+        android:layout_below="@+id/rl_title"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_order_ticket"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kyald.keretaapi.ui.OrderTicketActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rl_kereta"
+        android:layout_below="@+id/rl_date"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txtTraing"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Pilih kereta"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true"
+            android:background="@drawable/border_text"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="8dp"
+            android:id="@+id/imageView16"
+            android:layout_weight="1"
+            android:background="@drawable/dropdown_black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rl_date"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Pilih tanggal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true"
+            android:background="@drawable/border_text"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/dropdown_black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rl_gerbong"
+        android:layout_below="@+id/rl_kereta"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txtgerbong"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Pilih Gerbong"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true"
+            android:background="@drawable/border_text"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/dropdown_black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rl_chair"
+        android:layout_below="@+id/rl_gerbong"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txtchair"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Pilih Kursi"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true"
+            android:background="@drawable/border_text"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/dropdown_black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_chair"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txt_status"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:text="Pesan tiket"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_status"
+        android:id="@+id/btn_order"
+        android:background="@drawable/lengkungkuning"
+        android:textColor="#fff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:7:5-31:19
+MERGED from [com.android.support:design:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:11:9-35
+	android:allowBackup
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:12:9-65
+activity#com.kyald.keretaapi.ui.RegisterActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:13:9-57
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:13:19-54
+activity#com.kyald.keretaapi.ui.LoginActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:14:9-16:20
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:14:19-51
+activity#com.kyald.keretaapi.MainActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:17:9-50
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:17:19-47
+activity#com.kyald.keretaapi.ui.OrderTicketActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:18:9-60
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:18:19-57
+activity#com.kyald.keretaapi.ui.TicketActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:19:9-55
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:19:19-52
+activity#com.kyald.keretaapi.ui.MakananActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:20:9-56
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:20:19-53
+activity#com.kyald.keretaapi.ui.MinumanActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:21:9-56
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:21:19-53
+activity#com.kyald.keretaapi.ui.FoodActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:22:9-53
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:22:19-50
+activity#com.kyald.keretaapi.ui.StatusActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:23:9-55
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:23:19-52
+activity#com.kyald.keretaapi.LokasiActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:24:9-52
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:24:19-49
+activity#com.kyald.keretaapi.ui.PassangerActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:25:9-58
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:25:19-55
+activity#com.kyald.keretaapi.SplashActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:26:9-30:36
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:26:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:26:50-30:25
+action#android.intent.action.MAIN
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:27:13-65
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:27:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:29:13-73
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml:29:23-70
+uses-sdk
+INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:transition:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.0] /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/AndroidManifest.xml
