@@ -21,6 +21,7 @@
         <activity android:name=".ui.MinumanActivity" />
         <activity android:name=".ui.FoodActivity" />
         <activity android:name=".ui.StatusActivity" />
+        <activity android:name=".ui.StatusAdminActivity" />
         <activity android:name=".LokasiActivity" />
         <activity android:name=".ui.PassangerActivity" />
         <activity android:name=".SplashActivity"><intent-filter>

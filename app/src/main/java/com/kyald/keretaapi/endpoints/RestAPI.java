@@ -66,6 +66,16 @@ public interface RestAPI {
     @GET("api/v1/dish/order/list")
     Call<StatusResponse> GetDataStatus(@Header("X-Auth-Token") String lang);
 
+
+    @FormUrlEncoded
+    @POST("api/v1/dish/order/user")
+    Call<StatusResponse> getFoodStatusUser(@Header("X-Auth-Token") String lang,@Field("code") String code);
+
+    @FormUrlEncoded
+    @POST("api/v1/dish/status/update")
+    Call<OrderResponse> postFoodStatus(@Header("X-Auth-Token") String lang,@Field("ordernumb") String code);
+
+
     @FormUrlEncoded
     @POST("api/v1/dish/order")
     Call<PesananResponse> PostDataStatus(@Header("X-Auth-Token") String lang, @Field("code") String code, @Field("makanan") String makanan, @Field("harga") String harga);

@@ -5,33 +5,40 @@
     density="mdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="2953892575060"
+    timestamp="11273919715067"
     token="4433533097818109596"
-    verifier="METHOD_ADDED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="3541" />
+        duration="2940" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="29" />
     <task
         name="instant-run-transform"
-        duration="121" />
+        duration="116" />
     <task
         name="verifier"
-        duration="80" />
+        duration="33" />
 
     <artifact
-        location="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="3525405964453"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="11132487949058"
+        verifier="FIELD_REMOVED" >
         <artifact
-            location="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/outputs/apk/app-debug.apk"
+            location="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="11273919715067"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

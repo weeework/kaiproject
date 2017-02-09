@@ -6,37 +6,37 @@ import com.google.gson.annotations.SerializedName;
 
 public class Status {
 
-    @SerializedName("id")
+    @SerializedName("ordernumb")
     @Expose
-    private Integer id;
+    private String ordernumb;
     @SerializedName("status")
     @Expose
     private String status;
     @SerializedName("code")
     @Expose
     private String code;
-    @SerializedName("ordernumb")
+    @SerializedName("nama")
     @Expose
-    private String ordernumb;
+    private String nama;
+    @SerializedName("gerbong")
+    @Expose
+    private Integer gerbong;
+    @SerializedName("kursi")
+    @Expose
+    private Integer kursi;
     @SerializedName("dish")
     @Expose
     private String dish;
     @SerializedName("price")
     @Expose
     private Integer price;
-    @SerializedName("created_at")
-    @Expose
-    private String createdAt;
-    @SerializedName("updated_at")
-    @Expose
-    private String updatedAt;
 
-    public Integer getId() {
-        return id;
+    public String getOrdernumb() {
+        return ordernumb;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setOrdernumb(String ordernumb) {
+        this.ordernumb = ordernumb;
     }
 
     public String getStatus() {
@@ -55,12 +55,28 @@ public class Status {
         this.code = code;
     }
 
-    public String getOrdernumb() {
-        return ordernumb;
+    public String getNama() {
+        return nama;
     }
 
-    public void setOrdernumb(String ordernumb) {
-        this.ordernumb = ordernumb;
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public Integer getGerbong() {
+        return gerbong;
+    }
+
+    public void setGerbong(Integer gerbong) {
+        this.gerbong = gerbong;
+    }
+
+    public Integer getKursi() {
+        return kursi;
+    }
+
+    public void setKursi(Integer kursi) {
+        this.kursi = kursi;
     }
 
     public String getDish() {
@@ -77,22 +93,6 @@ public class Status {
 
     public void setPrice(Integer price) {
         this.price = price;
-    }
-
-    public String getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(String createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public String getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(String updatedAt) {
-        this.updatedAt = updatedAt;
     }
 
 }

@@ -26,6 +26,7 @@
         <activity android:name="com.kyald.keretaapi.ui.MinumanActivity" />
         <activity android:name="com.kyald.keretaapi.ui.FoodActivity" />
         <activity android:name="com.kyald.keretaapi.ui.StatusActivity" />
+        <activity android:name="com.kyald.keretaapi.ui.StatusAdminActivity" />
         <activity android:name="com.kyald.keretaapi.LokasiActivity" />
         <activity android:name="com.kyald.keretaapi.ui.PassangerActivity" />
         <activity android:name="com.kyald.keretaapi.SplashActivity" >
