@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86,armeabi-v7a"
-    api-level="19"
-    density="mdpi"
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="11273919715067"
-    token="4433533097818109596"
-    verifier="COMPATIBLE" >
+    timestamp="454099860602088"
+    token="2540949494764489950" >
 
     <task
         name="javac"
-        duration="2940" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="29" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="116" />
+        duration="0" />
     <task
         name="verifier"
-        duration="33" />
-
-    <artifact
-        location="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        duration="0" />
 
     <build
-        timestamp="11132487949058"
-        verifier="FIELD_REMOVED" >
+        timestamp="454037281795387"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/outputs/apk/app-debug.apk"
+            location="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="11273919715067"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
+    <build timestamp="454099860602088" />
 
 </instant-run>

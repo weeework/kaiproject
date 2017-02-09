@@ -2,454 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_6d0230fd1e62122435eb709b9122070479e4f726.jar" />
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_b83d5ebc9e5b065a4f1569ed90ab149f443fde74\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_9a4a8eafbe343ae84d3e99b85819dd6dcca066ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_7f609f4bd2716940a53b68767204591d111d55c0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_171919aac5861dd87bc68e16d2234e539682602a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_3052e59a21e4cd90e607f901822ab91fc7ac80c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_fc9a3dbc91026599885b7d601437f2600fba10fc.jar" />
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_d2cc8fc958ec0576f8d358a9eb9d2137dc3e5b5c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_eb03b99c4b7b58f281d2a7065b65c6b7d8296deb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_0df6ae66a81141647b7cdbc0b6057f5da446170c.jar" />
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_d1b02e9251db615b7004a5cbc1508a4b784a2997\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_471491d47d10fec2e6a151c1fd7406d3b645960d.jar" />
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_c82fab2902523f051ebfd4acbf061f05b38764ce\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0-beta4/de5935a367ba5e343e9df786ac8fc0c7d52b5f0c/converter-gson-2.0.0-beta4.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta4_fdba4a64538851e19b08abe00d4216d3097a2a16.jar" />
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_a296fc1a3c573389ad73312d95a8ac3cfee20618\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.0-beta4/739e00dea1f0ac04fdb9b6160d667e23cc50a791/retrofit-2.0.0-beta4.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta4_fd44dafec7e3d57cf0f6cb63299946f79c2b5b72.jar" />
+        sha1="af10f306407efb9ba5fc3e3706772d17e7bb217c">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5f584dff13cf9bc80787d6d16afb9884595c8deb\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.0.1/b34c1f2d993044656e87f88970b6818e99e886ba/okhttp-3.0.1.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/okhttp-3.0.1_e4b3a57aba4efb9c338d842aa6809a1b902e51fd.jar" />
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_bdb0131702f8ef73c764b22db2a11394d7bbab2c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/gson-2.4_02e3b984e80a29254b64aaeae4696ee732908db9.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_9b38f570d80f5b51aa9dd06797556af2bf065f40\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_8ee245d948991419820c92ac8d305d9a6afb0e24.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_3a134068a0316007c52805271bb8f51bcaf9260e.jar" />
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_fba0b8b1c70c1f31a15dd20f7ea16d7c29b9accb\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1522a3284222fc9e61e391032023b1a923a8acbc">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5ae0104afc285c1f918650095a4d43aa576d1e34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/okio-1.6.0_d918e99eee6cffb9c0b7105ef53753ead286a709.jar" />
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_9bf5f7d61a61faa245163021829b01bfcf9be68d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_7e22d68b26ec3fe53bb96ff3606b36c91393dd02.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_88421fc4d271bd484d7bf5f7015cd799b397ede9.jar" />
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_15f1b943070dca5c566ed6de2b4a979e267a6298\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
         jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_e001f5de8af832559772e5ca467569ba22192a6b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_369c9147ebffb4400321947d4480ec192610c017.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_e0350f6c60a6ba1de52d3892ab5250e5ec924d18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_11868af9ee6eb3928cf4a58bffeef58e22747637.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_f361a27796be8abb25e5259b4868b8ed990e2fb0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_55c1c4934a843c80ddbf64324bda65bea698f9cd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2d44141211c62fa0f0a52964c349d8d2420cd591">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/instant-run_9a77c04d11ae85a55d453e8fd952061e77819ee5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_f361a27796be8abb25e5259b4868b8ed990e2fb0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_eaf2e056467739fdb9129301e04762c48d58658e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_3052e59a21e4cd90e607f901822ab91fc7ac80c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_171919aac5861dd87bc68e16d2234e539682602a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9baba2d7eafcdf5f9ddea6a589119cc11b977232">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_dfddffec4aa1e962e90f193d2184e40ca5a21860.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_714f39679dfc2698586af92c84659c2f4bca8d55.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_e00dc1f7a944b089a85b756ea52c931f94a073ba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
-        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/gson-2.4_02e3b984e80a29254b64aaeae4696ee732908db9.jar" />
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_703fb9b4b0925aa028c37e9283a1726447be39c6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_117209dac5adaaa0a0a08005764f0106b680b201.jar" />
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.0.1_f501199a952296622558fea7c30dbcfdd1fc1bc7\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_6d0230fd1e62122435eb709b9122070479e4f726.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_c0511a96bb24f39a7ec0e4dd44b22f24a114c83b.jar" />
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_f27d6d4b4dc52a97a6530cbefd5d139fb7884873\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta4\739e00dea1f0ac04fdb9b6160d667e23cc50a791\retrofit-2.0.0-beta4.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_0854316df9578fcea8c22cb9f5247513b9380e20.jar" />
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta4_cbee146e84c75cc6684e81952d9377d8e34693d6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\acer\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_117209dac5adaaa0a0a08005764f0106b680b201.jar" />
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta4_2c7cd69dc22b72e05663e1aaca839853ec21d7c9\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_8ee245d948991419820c92ac8d305d9a6afb0e24.jar" />
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_f2a658e0f28aa882efcde49c9c9bbb833a895546\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_e001f5de8af832559772e5ca467569ba22192a6b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.0-beta4/739e00dea1f0ac04fdb9b6160d667e23cc50a791/retrofit-2.0.0-beta4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta4_fd44dafec7e3d57cf0f6cb63299946f79c2b5b72.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/okio-1.6.0_d918e99eee6cffb9c0b7105ef53753ead286a709.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_7e22d68b26ec3fe53bb96ff3606b36c91393dd02.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_e00dc1f7a944b089a85b756ea52c931f94a073ba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_eaf2e056467739fdb9129301e04762c48d58658e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.0.1/b34c1f2d993044656e87f88970b6818e99e886ba/okhttp-3.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/okhttp-3.0.1_e4b3a57aba4efb9c338d842aa6809a1b902e51fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_11868af9ee6eb3928cf4a58bffeef58e22747637.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_88421fc4d271bd484d7bf5f7015cd799b397ede9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0-beta4/de5935a367ba5e343e9df786ac8fc0c7d52b5f0c/converter-gson-2.0.0-beta4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta4_fdba4a64538851e19b08abe00d4216d3097a2a16.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_094489dc0066d422b900ba779378c16cb9898862.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/gilangpramudya/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_55c1c4934a843c80ddbf64324bda65bea698f9cd.jar" />
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\KIRIK\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_ee3f3c7f739b5e48340d07b09cb33a255ce993b1\classes.dex" />
     </item>
 
 </items>
