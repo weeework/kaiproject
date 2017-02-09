@@ -32,12 +32,13 @@ public class StatusActivity extends AppCompatActivity {
     private RecyclerView.Adapter dishAdapter;
     private List<Status> Status_var = new ArrayList<>();
     Toolbar toolbar;
-
-    public static final String ROOT_URL = "http://180.250.18.92:81/";
+    String code;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_status);
+
+        code = PreferenceUtils.getInstance().loadDataString(getApplicationContext(), PreferenceUtils.CODE);
 
         rv=(RecyclerView) findViewById(R.id.id_ac);
         getData();
@@ -65,7 +66,7 @@ public class StatusActivity extends AppCompatActivity {
         final String token = PreferenceUtils.getInstance().loadDataString(StatusActivity.this, PreferenceUtils.TOKEN);
 
         RestAPI service = Utils.getClient().create(RestAPI.class);
-        Call<StatusResponse> call = service.GetDataStatus(token);
+        Call<StatusResponse> call = service.getFoodStatusUser(token,code);
         call.enqueue(new Callback<StatusResponse>() { //Asyncronous Request
                          @Override
                          public void onResponse(Call<StatusResponse> call, Response<StatusResponse> response) {

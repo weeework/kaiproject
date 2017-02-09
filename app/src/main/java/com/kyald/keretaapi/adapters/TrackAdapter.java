@@ -63,6 +63,8 @@ public class TrackAdapter extends  RecyclerView.Adapter<TrackAdapter.UserViewHol
             @Override
             public void onClick(View v) {
 
+
+
                 String token = PreferenceUtils.getInstance().loadDataString(context, PreferenceUtils.TOKEN);
                 int train_id = sts.getTrainId();
                 final int track_id = sts.getId();

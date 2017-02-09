@@ -19,6 +19,7 @@ import com.kyald.keretaapi.ui.FoodActivity;
 import com.kyald.keretaapi.ui.LoginActivity;
 import com.kyald.keretaapi.ui.OrderTicketActivity;
 import com.kyald.keretaapi.ui.PassangerActivity;
+import com.kyald.keretaapi.ui.StatusAdminActivity;
 import com.kyald.keretaapi.ui.TicketActivity;
 import com.kyald.keretaapi.utils.PreferenceUtils;
 
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         idcode = (TextView)findViewById(R.id.id_code);
         Button   buttonInfo = (Button) findViewById(R.id.btnInfo);
         Button   buttonLokasi = (Button) findViewById(R.id.btnLokasi);
+        Button   btnFoodAdmin = (Button) findViewById(R.id.btnFoodAdmin);
 
 
         if(role.equals("user")){
@@ -54,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
             ((TextView)findViewById(R.id.textView7)).setVisibility(View.GONE);
             ((Button)findViewById(R.id.btntiket)).setVisibility(View.GONE);
             ((Button)findViewById(R.id.btn_food)).setVisibility(View.GONE);
+            btnFoodAdmin.setVisibility(View.VISIBLE);
         }
 
 
@@ -68,6 +71,14 @@ public class MainActivity extends AppCompatActivity {
 //        }catch (NullPointerException e){
 //            e.printStackTrace();
 //        }
+
+        btnFoodAdmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, StatusAdminActivity.class));
+
+            }
+        });
 
         buttonInfo.setOnClickListener(new View.OnClickListener() {
             @Override

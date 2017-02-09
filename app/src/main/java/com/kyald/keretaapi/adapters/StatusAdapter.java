@@ -41,6 +41,7 @@ public class StatusAdapter extends  RecyclerView.Adapter<StatusAdapter.UserViewH
         holder.nms.setText(sts.getDish() );
         holder.stts.setText(sts.getStatus() );
         holder.hrg.setText(String.valueOf(sts.getPrice()) );
+        holder.pemesan.setText(sts.getNama());
     }
 
     @Override
@@ -51,13 +52,14 @@ public class StatusAdapter extends  RecyclerView.Adapter<StatusAdapter.UserViewH
     public static class UserViewHolder extends RecyclerView.ViewHolder {
 
         public final View mView;
-        public TextView nms,stts,hrg;
+        public TextView nms,stts,hrg,pemesan;
 
         public UserViewHolder(View itemView) {
             super(itemView);
             nms=(TextView) itemView.findViewById((R.id.id_nama_item));
             stts=(TextView) itemView.findViewById((R.id.id_status_item));
             hrg=(TextView) itemView.findViewById((R.id.id_harga_item));
+            pemesan=(TextView) itemView.findViewById((R.id.id_pemesan));
 
 
             mView = itemView;
