@@ -1,4 +1,4 @@
-#Tue Feb 07 03:15:54 WIB 2017
-base.0=/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Thu Feb 09 09:58:01 WIB 2017
+base.0=/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

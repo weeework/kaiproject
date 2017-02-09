@@ -19,6 +19,7 @@ import android.widget.Toast;
 import com.kyald.keretaapi.adapters.TrackAdapter;
 import com.kyald.keretaapi.endpoints.RestAPI;
 import com.kyald.keretaapi.models.Track;
+import com.kyald.keretaapi.models.TrackStatus;
 import com.kyald.keretaapi.models.Train;
 import com.kyald.keretaapi.responses.TrackResponse;
 import com.kyald.keretaapi.responses.TrackUpdateResponse;
@@ -43,7 +44,7 @@ public class LokasiActivity extends AppCompatActivity {
     //    private MakananAdapter dishAdapter;
     private RecyclerView.Adapter dishAdapter;
     private List<Track> tracks = new ArrayList<>();
-    String token;
+    String token,role;
     TextView status;
     int kereta;
 
@@ -53,6 +54,7 @@ public class LokasiActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lokasi);
 
         token = PreferenceUtils.getInstance().loadDataString(getApplicationContext(), PreferenceUtils.TOKEN);
+        role = PreferenceUtils.getInstance().loadDataString(getApplicationContext(), PreferenceUtils.ROLE);
         status = (TextView)findViewById(R.id.status_lokasi);
         initToolBar();
 
@@ -129,7 +131,6 @@ public class LokasiActivity extends AppCompatActivity {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
-                                rv.setVisibility(View.VISIBLE);
                                 kereta = trains.get(which).getId();
                                 ((TextView)findViewById(R.id.txtTraing)).setText(trains.get(which).getName() + " | "+ trains.get(which).getLocStart()
                                         + "-"+trains.get(which).getLocEnd()+" ("+trains.get(which).getSchStart()+"-"+trains.get(which).getSchEnd()+")" );
@@ -215,7 +216,16 @@ public class LokasiActivity extends AppCompatActivity {
 
                                  //dapatkan hasil parsing dari method response.body()
                                  TrackResponse dishResponse=response.body();
-                                 List<Track> makananList=dishResponse.getData();
+                                 TrackStatus trackstatus=dishResponse.getData();
+                                 List<Track> makananList=trackstatus.getTrack();
+
+
+                                 status.setText(trackstatus.getStatus());
+                                 if(role.equals("user")){
+                                     rv.setVisibility(View.GONE);
+                                 } else {
+                                     rv.setVisibility(View.VISIBLE);
+                                 }
 
 //                                 rv.setHasFixedSize(true);
 

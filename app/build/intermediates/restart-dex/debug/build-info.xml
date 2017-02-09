@@ -5,25 +5,25 @@
     density="mdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="3525405964453"
+    timestamp="2953892575060"
     token="4433533097818109596"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="2304" />
+        duration="3541" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="144" />
+        duration="121" />
     <task
         name="verifier"
-        duration="28" />
+        duration="80" />
 
     <artifact
-        location="/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/outputs/apk/app-debug.apk"
+        location="/Users/gilangpramudya/Documents/Kyald/KAI/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
