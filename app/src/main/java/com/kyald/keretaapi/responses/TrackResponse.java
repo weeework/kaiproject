@@ -3,6 +3,7 @@ package com.kyald.keretaapi.responses;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import com.kyald.keretaapi.models.Track;
+import com.kyald.keretaapi.models.TrackStatus;
 
 import java.util.List;
 
@@ -12,6 +13,7 @@ import java.util.List;
 
 public class TrackResponse {
 
+
     @SerializedName("status")
     @Expose
     private Boolean status;
@@ -20,7 +22,7 @@ public class TrackResponse {
     private String message;
     @SerializedName("data")
     @Expose
-    private List<Track> data = null;
+    private TrackStatus data;
 
     public Boolean getStatus() {
         return status;
@@ -38,11 +40,11 @@ public class TrackResponse {
         this.message = message;
     }
 
-    public List<Track> getData() {
+    public TrackStatus getData() {
         return data;
     }
 
-    public void setData(List<Track> data) {
+    public void setData(TrackStatus data) {
         this.data = data;
     }
 }

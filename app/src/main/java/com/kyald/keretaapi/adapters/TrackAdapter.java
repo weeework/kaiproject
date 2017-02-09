@@ -5,6 +5,7 @@ import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -65,7 +66,7 @@ public class TrackAdapter extends  RecyclerView.Adapter<TrackAdapter.UserViewHol
                 String token = PreferenceUtils.getInstance().loadDataString(context, PreferenceUtils.TOKEN);
                 int train_id = sts.getTrainId();
                 final int track_id = sts.getId();
-                final String status = "Posisi sekarang : "+sts.getLocation();
+                final String status = "Posisi sekarang : "+sts.getLocation() + "("+convertDate(String.valueOf(System.currentTimeMillis()),"dd/MMM/yyyy hh:mm")+")";
 
                 RestAPI apiEndpoint = Utils.getClient().create(RestAPI.class);
                 final Call<TrackUpdateResponse> call = apiEndpoint.postTrack(token, train_id, track_id,status);
@@ -111,6 +112,10 @@ public class TrackAdapter extends  RecyclerView.Adapter<TrackAdapter.UserViewHol
             }
         });
 
+    }
+
+    public static String convertDate(String dateInMilliseconds,String dateFormat) {
+        return DateFormat.format(dateFormat, Long.parseLong(dateInMilliseconds)).toString();
     }
 
     @Override

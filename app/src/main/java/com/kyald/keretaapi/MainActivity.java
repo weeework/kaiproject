@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(role.equals("user")){
             buttonInfo.setVisibility(View.GONE);
-            buttonLokasi.setVisibility(View.GONE);
+//            buttonLokasi.setVisibility(View.GONE);
         } else {
             ((TextView)findViewById(R.id.id_code)).setVisibility(View.GONE);
             ((TextView)findViewById(R.id.textView7)).setVisibility(View.GONE);
