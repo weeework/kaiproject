@@ -67,10 +67,10 @@ public class LoginActivity extends AppCompatActivity {
                     return;
                 }
 
-                if(edt_uname.getText().toString().isEmpty() || edt_email.getText().toString().equals("")){
-                    edt_uname.setError("Please insert username");
-                    return;
-                }
+//                if(edt_uname.getText().toString().isEmpty() || edt_email.getText().toString().equals("")){
+//                    edt_uname.setError("Please insert username");
+//                    return;
+//                }
 
                 if(edt_pass.getText().toString().length() < 6){
                     edt_pass.setError("Password cannot less than 6 charaters");
