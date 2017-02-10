@@ -11,8 +11,6 @@ import android.widget.TextView;
 
 import com.kyald.keretaapi.R;
 import com.kyald.keretaapi.models.Passengger;
-import com.kyald.keretaapi.models.Penumpang;
-import com.kyald.keretaapi.models.Status;
 
 import java.util.List;
 
@@ -41,7 +39,7 @@ public class PenumpangAdapter extends  RecyclerView.Adapter<PenumpangAdapter.Use
     public void onBindViewHolder(UserViewHolder holder, @SuppressLint("RecyclerView") final int position) {
         Passengger sts=dk.get(position);
         holder.id_tiket.setText("Tiket : "+sts.getTicket() );
-        holder.id_status.setText("Status : "+sts.getStatus() );
+//        older.id_status.setText("Status : "+sts.getStatus() );
         holder.id_name.setText("Name : "+String.valueOf(sts.getName()) );
         holder.id_coach.setText("Gerbong : "+String.valueOf(sts.getCoach()) );
         holder.id_chair.setText("Kursi : "+String.valueOf(sts.getChair()) );
@@ -61,7 +59,7 @@ public class PenumpangAdapter extends  RecyclerView.Adapter<PenumpangAdapter.Use
         public UserViewHolder(View itemView) {
             super(itemView);
             id_tiket=(TextView) itemView.findViewById((R.id.id_tiket));
-            id_status=(TextView) itemView.findViewById((R.id.id_status));
+//            id_status=(TextView) itemView.findViewById((R.id.id_status));
             id_name=(TextView) itemView.findViewById((R.id.id_name));
             id_coach=(TextView) itemView.findViewById((R.id.id_coach));
             id_chair=(TextView) itemView.findViewById((R.id.id_chair));

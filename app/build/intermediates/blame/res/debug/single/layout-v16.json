@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v16/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/gilangpramudya/Documents/Kyald/KAI/C:\\Users\\acer\\AndroidStudioProjects\\KIRIK\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
-        "source": "/Users/gilangpramudya/Documents/Kyald/KAI/C:\\Users\\acer\\AndroidStudioProjects\\KIRIK\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout-v16\\notification_template_custom_big.xml"
+        "merged": "C:\\Users\\acer\\AndroidStudioProjects\\Passengger\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\acer\\AndroidStudioProjects\\Passengger\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

@@ -2,7 +2,9 @@ package com.kyald.keretaapi.responses;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import com.kyald.keretaapi.models.Penumpang;
+import com.kyald.keretaapi.models.Passengger;
+
+import java.util.List;
 
 public class PassangerResponse {
 
@@ -14,7 +16,7 @@ public class PassangerResponse {
     private String message;
     @SerializedName("data")
     @Expose
-    private Penumpang data;
+    private List<Passengger> data;
 
     public Boolean getStatus() {
         return status;
@@ -32,11 +34,11 @@ public class PassangerResponse {
         this.message = message;
     }
 
-    public Penumpang getData() {
+    public List<Passengger> getData() {
         return data;
     }
 
-    public void setData(Penumpang data) {
+    public void setData(List<Passengger> data) {
         this.data = data;
     }
 }

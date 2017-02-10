@@ -5,8 +5,8 @@ import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -20,15 +20,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.kyald.keretaapi.R;
-import com.kyald.keretaapi.adapters.MinumanAdapter;
 import com.kyald.keretaapi.adapters.PenumpangAdapter;
 import com.kyald.keretaapi.endpoints.RestAPI;
-import com.kyald.keretaapi.models.DishKategory;
-import com.kyald.keretaapi.models.Minuman;
 import com.kyald.keretaapi.models.Passengger;
-import com.kyald.keretaapi.models.Penumpang;
 import com.kyald.keretaapi.models.Train;
-import com.kyald.keretaapi.responses.DishResponse;
 import com.kyald.keretaapi.responses.PassangerResponse;
 import com.kyald.keretaapi.responses.TrainResponse;
 import com.kyald.keretaapi.utils.PreferenceUtils;
@@ -79,30 +74,40 @@ public class PassangerActivity extends AppCompatActivity {
         progressDialog.setMessage("Please wait...");
 
         rv=(RecyclerView) findViewById(R.id.id_ac);
-                rv.setVisibility(View.GONE);
+//                rv.setVisibility(View.GONE);
 
 
         token = PreferenceUtils.getInstance().loadDataString(getApplicationContext(), PreferenceUtils.TOKEN);
+        String code = PreferenceUtils.getInstance().loadDataString(getApplicationContext(), PreferenceUtils.CODE);
 
-        txtdate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                datepick();
-                rl_train.setVisibility(View.GONE);
-                rv.setVisibility(View.GONE);
-//                Toast.makeText(OrderTicketActivity.this, "asdsad", Toast.LENGTH_LONG).show();
 
-            }
-        });
 
-        txtTrain.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialogTrain();
-//                Toast.makeText(OrderTicketActivity.this, "asdsad", Toast.LENGTH_LONG).show();
 
-            }
-        });
+        getData(code);
+        rv.setVisibility(View.VISIBLE);
+
+
+
+
+//        txtdate.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                datepick();
+//                rl_train.setVisibility(View.GONE);
+//                rv.setVisibility(View.GONE);
+////                Toast.makeText(OrderTicketActivity.this, "asdsad", Toast.LENGTH_LONG).show();
+//
+//            }
+//        });
+//
+//        txtTrain.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                dialogTrain();
+////                Toast.makeText(OrderTicketActivity.this, "asdsad", Toast.LENGTH_LONG).show();
+//
+//            }
+//        });
 
 //        search.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -185,8 +190,8 @@ public class PassangerActivity extends AppCompatActivity {
 //                                edtCountryCode.setTag("+" + countryCodeEvent.getData().get(which).getPhoneCode());
                                 dialog.dismiss();
 
-                                getData();
-                                rv.setVisibility(View.VISIBLE);
+//                                getData();
+//                                rv.setVisibility(View.VISIBLE);
 
 
 
@@ -223,13 +228,13 @@ public class PassangerActivity extends AppCompatActivity {
         });
     }
 
-    private void getData(){
+    private void getData(String code){
         //ketika aplikasi sedang mengambil data kita akan melihat progress dialog muncul
         final ProgressDialog loading = ProgressDialog.show(this, "Fetching Data","Please wait..",false,false);
         final String token = PreferenceUtils.getInstance().loadDataString(PassangerActivity.this, PreferenceUtils.TOKEN);
 
         RestAPI service = Utils.getClient().create(RestAPI.class);
-        Call<PassangerResponse> call = service. getPassanger(token,kereta,txtdate.getText().toString());
+        Call<PassangerResponse> call = service. getPassanger(token,code);
         call.enqueue(new Callback<PassangerResponse>() { //Asyncronous Request
                          @Override
                          public void onResponse(Call<PassangerResponse> call, Response<PassangerResponse> response) {
@@ -239,13 +244,13 @@ public class PassangerActivity extends AppCompatActivity {
 
                                  //dapatkan hasil parsing dari method response.body()
                                  PassangerResponse dishResponse=response.body();
-                                 Penumpang dishKategory=dishResponse.getData();
-                                 List<Passengger> passenggers=dishKategory.getList();
+//                                 Penumpang dishKategory=dishResponse.getData();
+                                 List<Passengger> passenggers=dishResponse.getData();
 //                                 rv.setHasFixedSize(true);
                                  passenggerList.clear();
 //                                 for(int i=0;i<dishResponse.getData().)
                                  for (int i=0; i<=passenggers.size();i++){
-//                                     Toast.makeText(getApplicationContext(), makananList.get(i).getName(),Toast.LENGTH_SHORT).show();
+//                                     Toast.makeText(getApplicationContext(), passenggers.get(i).getName(),Toast.LENGTH_SHORT).show();
 //                                     makananList.add(new Makanan())
                                      passenggerList.add(passenggers.get(i));
 //                                   makananList.add(new Makanan(1,"rdytrdy"));

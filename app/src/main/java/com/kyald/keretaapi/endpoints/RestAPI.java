@@ -1,12 +1,13 @@
 package com.kyald.keretaapi.endpoints;
 
+import com.kyald.keretaapi.responses.AdminPassenggerRespon;
+import com.kyald.keretaapi.responses.AuthResponse;
+import com.kyald.keretaapi.responses.ChairResponse;
 import com.kyald.keretaapi.responses.DishResponse;
+import com.kyald.keretaapi.responses.OrderResponse;
 import com.kyald.keretaapi.responses.PassangerResponse;
 import com.kyald.keretaapi.responses.PesananResponse;
 import com.kyald.keretaapi.responses.StatusResponse;
-import com.kyald.keretaapi.responses.AuthResponse;
-import com.kyald.keretaapi.responses.ChairResponse;
-import com.kyald.keretaapi.responses.OrderResponse;
 import com.kyald.keretaapi.responses.TicketResponse;
 import com.kyald.keretaapi.responses.TrackResponse;
 import com.kyald.keretaapi.responses.TrackUpdateResponse;
@@ -94,8 +95,20 @@ public interface RestAPI {
                                         @Field("status") String status);
 
     @FormUrlEncoded
-    @POST("api/v1/pass")
+    @POST("api/v1/pass/user")
     Call<PassangerResponse> getPassanger(@Header("X-Auth-Token") String lang,
-                                     @Field("train_id") int train_id,
-                                     @Field("date") String date);
+                                         @Field("code") String code);
+    @FormUrlEncoded
+    @POST("api/v1/pass/admin/update")
+    Call<AdminPassenggerRespon> updatePasaanger(@Header("X-Auth-Token") String lang,
+                                         @Field("code") String code);
+
+    @FormUrlEncoded
+    @POST("api/v1/pass/admin")
+    Call<AdminPassenggerRespon> getPassangerAdmin(@Header("X-Auth-Token") String lang,
+                                                  @Field("date") String date,
+                                                  @Field("train_id") Integer train_id,
+                                                  @Field("coach_id") Integer code);
+
+
 }

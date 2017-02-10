@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "C:\\Users\\acer\\AndroidStudioProjects\\Passengger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\acer\\AndroidStudioProjects\\Passengger\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-anydpi-v21/design_ic_visibility.xml"
-    },
-    {
-        "merged": "/Users/gilangpramudya/Documents/Kyald/KAI/C:\\Users\\acer\\AndroidStudioProjects\\KIRIK\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "/Users/gilangpramudya/Documents/Kyald/KAI/C:\\Users\\acer\\AndroidStudioProjects\\KIRIK\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
-    },
-    {
-        "merged": "/Users/gilangpramudya/Documents/Kyald/KAI/C:\\Users\\acer\\AndroidStudioProjects\\KIRIK\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "/Users/gilangpramudya/Documents/Kyald/KAI/C:\\Users\\acer\\AndroidStudioProjects\\KIRIK\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "merged": "C:\\Users\\acer\\AndroidStudioProjects\\Passengger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\acer\\AndroidStudioProjects\\Passengger\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     }
 ]
