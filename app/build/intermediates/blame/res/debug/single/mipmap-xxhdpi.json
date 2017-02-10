@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/gilangpramudya/Documents/Kyald/Kereta/KeretaAPi/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/gilangpramudya/Documents/Kyald/KAI/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/gilangpramudya/Documents/Kyald/KAI/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\acer\\AndroidStudioProjects\\KIRIK\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\acer\\AndroidStudioProjects\\KIRIK\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]
