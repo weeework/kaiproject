@@ -17,8 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity android:name="com.kyald.keretaapi.ui.RegisterActivity" />
-        <activity android:name="com.kyald.keretaapi.ui.LoginActivity" >
-        </activity>
+        <activity android:name="com.kyald.keretaapi.ui.LoginActivity" />
         <activity android:name="com.kyald.keretaapi.MainActivity" />
         <activity android:name="com.kyald.keretaapi.ui.OrderTicketActivity" />
         <activity android:name="com.kyald.keretaapi.ui.TicketActivity" />
@@ -37,6 +36,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.kyald.keretaapi.ui.CleaningActivity" />
+        <activity android:name="com.kyald.keretaapi.StatusKebersihan" />
+        <activity android:name="com.kyald.keretaapi.ui.KebersihanUpdate" />
     </application>
 
 </manifest>

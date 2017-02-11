@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="21"
-    density="hdpi"
+    api-level="19"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="544675259352278"
-    token="2121612059402207449"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="7626272347569"
+    token="-6019476985372531630"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="3301" />
+        duration="6017" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="60" />
     <task
         name="instant-run-transform"
-        duration="2328" />
+        duration="284" />
     <task
         name="verifier"
-        duration="1147" />
+        duration="61" />
 
     <artifact
-        location="C:\Users\acer\AndroidStudioProjects\Passengger\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="544675259352278"
+        timestamp="7486078603852"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\acer\AndroidStudioProjects\Passengger\app\build\outputs\apk\app-debug.apk"
+            location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="7626272347569"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

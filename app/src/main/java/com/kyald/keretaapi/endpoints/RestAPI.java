@@ -3,6 +3,7 @@ package com.kyald.keretaapi.endpoints;
 import com.kyald.keretaapi.responses.AdminPassenggerRespon;
 import com.kyald.keretaapi.responses.AuthResponse;
 import com.kyald.keretaapi.responses.ChairResponse;
+import com.kyald.keretaapi.responses.CleaningResponse;
 import com.kyald.keretaapi.responses.DishResponse;
 import com.kyald.keretaapi.responses.OrderResponse;
 import com.kyald.keretaapi.responses.PassangerResponse;
@@ -109,6 +110,18 @@ public interface RestAPI {
                                                   @Field("date") String date,
                                                   @Field("train_id") Integer train_id,
                                                   @Field("coach_id") Integer code);
+
+
+    @FormUrlEncoded
+    @POST("api/v1/clean/status/update")
+    Call<CleaningResponse> postClean(@Header("X-Auth-Token") String lang,
+                                     @Field("date") String date,
+                                     @Field("train_id") int train_id,
+                                     @Field("coach_id") int coach_id,
+                                     @Field("coach") int coach,
+                                     @Field("chair") int chair,
+                                     @Field("toilet") int toilet);
+
 
 
 }

@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.kyald.keretaapi.ui.CleaningActivity;
 import com.kyald.keretaapi.ui.FoodActivity;
 import com.kyald.keretaapi.ui.LoginActivity;
 import com.kyald.keretaapi.ui.OrderTicketActivity;
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
             ((Button)findViewById(R.id.btntiket)).setVisibility(View.GONE);
             ((Button)findViewById(R.id.btnInfo_admin)).setVisibility(View.VISIBLE);
             ((Button)findViewById(R.id.btn_food)).setVisibility(View.GONE);
+            ((Button)findViewById(R.id.btn_clean)).setVisibility(View.VISIBLE);
             btnFoodAdmin.setVisibility(View.VISIBLE);
         }
 
@@ -107,6 +109,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 startActivity(new Intent(MainActivity.this, PassangerActivityAdmin.class));
+//                PreferenceUtils.getInstance().deleteAll(MainActivity.this);
+//                finish();
+
+            }
+        });
+
+        ((Button)findViewById(R.id.btn_clean)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(MainActivity.this, CleaningActivity.class));
 //                PreferenceUtils.getInstance().deleteAll(MainActivity.this);
 //                finish();
 

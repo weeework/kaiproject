@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Passengger.iml" filepath="$PROJECT_DIR$/Passengger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KERETAAPI.iml" filepath="$PROJECT_DIR$/KERETAAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

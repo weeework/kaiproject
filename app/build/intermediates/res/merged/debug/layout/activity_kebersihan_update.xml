@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kyald.keretaapi.ui.KebersihanUpdate">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rl_kereta"
+        android:layout_below="@+id/rl_date"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txtTraing"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Pilih kereta"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true"
+            android:background="@drawable/border_text"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="8dp"
+            android:id="@+id/imageView16"
+            android:layout_weight="1"
+            android:background="@drawable/dropdown_black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:id="@+id/rl_gerbong"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:layout_below="@+id/rl_kereta">
+
+        <TextView
+            android:id="@+id/txt_gerbong"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Pilih Gerbong"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true"
+            android:background="@drawable/border_text"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/dropdown_black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rl_date"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Pilih tanggal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true"
+            android:background="@drawable/border_text"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/dropdown_black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_clean"
+        android:layout_below="@+id/rl_gerbong"
+        android:layout_margin="20dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_coach">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chk_coach"
+                android:layout_alignParentRight="true" />
+
+            <CheckedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kebersihan gerbong"
+                android:layout_alignBaseline="@+id/chk_coach"
+                android:layout_alignBottom="@+id/chk_coach"
+                android:layout_toStartOf="@+id/chk_coach" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_chair"
+            android:layout_below="@+id/rl_coach">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chk_chair"
+                android:layout_alignParentRight="true" />
+
+            <CheckedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kebersihan kursi"
+                android:layout_alignBaseline="@+id/chk_chair"
+                android:layout_alignBottom="@+id/chk_chair"
+                android:layout_toStartOf="@+id/chk_chair" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_toilet"
+            android:layout_below="@+id/rl_chair">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chk_toilet"
+                android:layout_alignParentRight="true" />
+
+            <CheckedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kebersihan toilet"
+                android:layout_alignBaseline="@+id/chk_toilet"
+                android:layout_alignBottom="@+id/chk_toilet"
+                android:layout_toStartOf="@+id/chk_toilet" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:text="Submit update"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/rl_clean"
+        android:id="@+id/btn_search"
+        android:textColor="#fff"
+        android:background="@drawable/lengkungkuning"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp" />
+</RelativeLayout>

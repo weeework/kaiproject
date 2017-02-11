@@ -11,9 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".ui.RegisterActivity" />
-        <activity android:name=".ui.LoginActivity">
-
-        </activity>
+        <activity android:name=".ui.LoginActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".ui.OrderTicketActivity" />
         <activity android:name=".ui.TicketActivity" />
@@ -25,11 +23,16 @@
         <activity android:name=".ui.PassangerActivityAdmin" />
         <activity android:name=".LokasiActivity" />
         <activity android:name=".ui.PassangerActivity" />
-        <activity android:name=".SplashActivity"><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.CleaningActivity" />
+        <activity android:name=".StatusKebersihan" />
+        <activity android:name=".ui.KebersihanUpdate"></activity>
     </application>
 
 </manifest>
