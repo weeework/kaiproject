@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kyald.keretaapi.ui.PassangerSearchActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edt_search"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:hint="Masukkan nomor tiket" />
+
+    <Button
+        android:text="Cari"
+        android:id="@+id/btn_search"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:visibility="visible"
+        android:layout_alignParentBottom="false"
+        android:layout_below="@+id/edt_search"
+        android:layout_width="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_height="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/btn_search"
+        android:layout_margin="20dp"
+        android:id="@+id/rl_status"
+        android:visibility="invisible">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_status"
+            android:layout_margin="5dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_chair"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/id_status" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_tiket"
+            android:layout_marginStart="27dp"
+            android:layout_alignParentTop="false"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/id_chair" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_name"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/id_tiket" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_coach"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/id_name" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_train"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/id_coach" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

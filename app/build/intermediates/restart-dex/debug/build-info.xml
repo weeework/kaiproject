@@ -1,44 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="19"
-    density="xhdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="7626272347569"
+    timestamp="47772021490542"
     token="-6019476985372531630"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="6017" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="60" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="284" />
+        duration="0" />
     <task
         name="verifier"
-        duration="61" />
+        duration="0" />
 
     <artifact
-        location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="7486078603852"
+        timestamp="46608651805301"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="7626272347569"
+        timestamp="47404338116473"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="47658820754860"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="47717401096577"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="47772021490542"
         verifier="COMPATIBLE" >
         <artifact
-            location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

@@ -39,6 +39,7 @@
         <activity android:name="com.kyald.keretaapi.ui.CleaningActivity" />
         <activity android:name="com.kyald.keretaapi.StatusKebersihan" />
         <activity android:name="com.kyald.keretaapi.ui.KebersihanUpdate" />
+        <activity android:name="com.kyald.keretaapi.ui.PassangerSearchActivity" />
     </application>
 
 </manifest>

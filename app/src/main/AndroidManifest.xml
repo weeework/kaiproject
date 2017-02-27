@@ -32,7 +32,8 @@
         </activity>
         <activity android:name=".ui.CleaningActivity" />
         <activity android:name=".StatusKebersihan" />
-        <activity android:name=".ui.KebersihanUpdate"></activity>
+        <activity android:name=".ui.KebersihanUpdate" />
+        <activity android:name=".ui.PassangerSearchActivity"/>
     </application>
 
 </manifest>

@@ -7,6 +7,7 @@ import com.kyald.keretaapi.responses.CleaningResponse;
 import com.kyald.keretaapi.responses.DishResponse;
 import com.kyald.keretaapi.responses.OrderResponse;
 import com.kyald.keretaapi.responses.PassangerResponse;
+import com.kyald.keretaapi.responses.PassangerSearchResponse;
 import com.kyald.keretaapi.responses.PesananResponse;
 import com.kyald.keretaapi.responses.StatusResponse;
 import com.kyald.keretaapi.responses.TicketResponse;
@@ -99,6 +100,12 @@ public interface RestAPI {
     @POST("api/v1/pass/user")
     Call<PassangerResponse> getPassanger(@Header("X-Auth-Token") String lang,
                                          @Field("code") String code);
+
+    @FormUrlEncoded
+    @POST("api/v1/pass/user/search")
+    Call<PassangerSearchResponse> getPassangerSearch(@Header("X-Auth-Token") String lang,
+                                                     @Field("code") String code);
+
     @FormUrlEncoded
     @POST("api/v1/pass/admin/update")
     Call<AdminPassenggerRespon> updatePasaanger(@Header("X-Auth-Token") String lang,

@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         if(role.equals("user")){
 //            buttonInfo.setVisibility(View.GONE);
 //            buttonLokasi.setVisibility(View.GONE);
+            ((Button)findViewById(R.id.btnInfo_admin)).setVisibility(View.VISIBLE);
         } else {
             ((TextView)findViewById(R.id.id_code)).setVisibility(View.GONE);
             ((TextView)findViewById(R.id.textView7)).setVisibility(View.GONE);
@@ -160,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
             ((Button)findViewById(R.id.btnInfo)).setVisibility(View.GONE);
         } else {
             ((Button)findViewById(R.id.btn_food)).setVisibility(View.VISIBLE);
-            ((Button)findViewById(R.id.btnInfo)).setVisibility(View.VISIBLE);
+            ((Button)findViewById(R.id.btnInfo)).setVisibility(View.GONE);
             idcode.setText("Nomor tiket aktif : "+code);
             idcode.setOnClickListener(new View.OnClickListener() {
                 @Override

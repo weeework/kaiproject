@@ -1,4 +1,7 @@
-#Sat Feb 11 06:42:09 WIB 2017
-base.0=/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Mon Feb 27 20:45:34 WIB 2017
+base.0=/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d07d94f1b10f734f194283b0a2c55bde752eb235
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8f336d330e0f3d82eccf4eb934f7da0efd35072c/classes.dex
+base.1=/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8f336d330e0f3d82eccf4eb934f7da0efd35072c
+file.0=/Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d07d94f1b10f734f194283b0a2c55bde752eb235/classes.dex

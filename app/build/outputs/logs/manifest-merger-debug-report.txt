@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidM
 	android:name
 		ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:7:5-36:19
+ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:7:5-37:19
 MERGED from [com.android.support:design:25.1.0] /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:22:5-20
@@ -115,9 +115,13 @@ ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidM
 	android:name
 		ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:34:19-51
 activity#com.kyald.keretaapi.ui.KebersihanUpdate
-ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:35:9-66
+ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:35:9-57
 	android:name
 		ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:35:19-54
+activity#com.kyald.keretaapi.ui.PassangerSearchActivity
+ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:36:9-63
+	android:name
+		ADDED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml:36:19-61
 uses-sdk
 INJECTED from /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.1.0] /Users/gilangpramudya/Documents/Kyald/KERETAAPI/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:21:5-23:62

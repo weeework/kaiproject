@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -90,7 +91,12 @@ public class PassangerActivityAdmin extends AppCompatActivity {
 
         token = PreferenceUtils.getInstance().loadDataString(getApplicationContext(), PreferenceUtils.TOKEN);
 
-
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PassangerActivityAdmin.this,PassangerSearchActivity.class));
+            }
+        });
 
 //
 //        getData();
@@ -374,7 +380,7 @@ public class PassangerActivityAdmin extends AppCompatActivity {
                          @Override
                          public void onFailure(Call<AdminPassenggerRespon> call, Throwable t) {
                              passenggerList.clear();
-                             dishAdapter.notifyDataSetChanged();
+//                             dishAdapter.notifyDataSetChanged();
                              Toast.makeText(getApplicationContext(), "Data tidak ditemukan",Toast.LENGTH_SHORT).show();
                              loading.dismiss(); //progress dialog dihentikan
                          }
